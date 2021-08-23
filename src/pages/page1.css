@@ -1,0 +1,27 @@
+
+.green{
+    background-color: #80E080 !important;
+
+}
+th{
+    text-align: center;
+}
+.E{
+    font-weight: 500 !important;
+}
+.inner-td{
+    padding-left: 100px ;
+    font-weight: 500 !important;
+}
+
+.C{
+line-height: 4px !important;
+color: red;
+}
+
+@media only screen and (max-width:1200px) {
+    .inner-td{
+        padding-left: 50px;
+    }
+    
+}

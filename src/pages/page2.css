@@ -1,0 +1,12 @@
+.table-2{
+    
+    height: 400px !important;
+    overflow-y: scroll !important ;
+}
+.green{
+    background-color: #80E080;
+
+}
+.red{
+    background-color: red !important;
+}
