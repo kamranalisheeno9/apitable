@@ -14,9 +14,8 @@ th{
     font-weight: 500 !important;
 }
 
-.C{
-line-height: 4px !important;
-color: red;
+.Column{
+line-height: 70px !important;
 }
 
 @media only screen and (max-width:1200px) {

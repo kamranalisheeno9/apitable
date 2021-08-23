@@ -12,8 +12,8 @@ const Table1 = () => {
             <Table bordered >
                 <thead>
                     <tr className="double-header" >
-                        <th className="C">Etapes</th>
-                        <th className="C">Descriptif</th>
+                        <th className="Column">Etapes</th>
+                        <th className="Column">Descriptif</th>
                         <th>PROD <br /> 
                         <th className="E">E0ED</th>
                         </th>
