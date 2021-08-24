@@ -17,12 +17,12 @@ function App() {
       
         <Switch>
           
-          <Route path="/page1">
-      <Table1 />
+          <Route path="/page2">
+      <Table2 />
 
           </Route>
           <Route path="/">
-          <Table2 />
+          <Table1 />
           </Route>
         </Switch>
     </Router>

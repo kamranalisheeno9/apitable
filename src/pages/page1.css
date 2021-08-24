@@ -17,6 +17,18 @@ th{
 .Column{
 line-height: 70px !important;
 }
+.btn-container{
+    text-align: center;
+}
+.btn{
+
+    margin-top: 20px;
+    width: 100px;
+}
+.btn a{
+    color: white !important;
+    text-decoration: none;
+}
 
 @media only screen and (max-width:1200px) {
     .inner-td{

@@ -2,10 +2,18 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './page2.css'
 import DataTable2 from './page2data.json'
-import { Container, Table } from 'react-bootstrap';
-
+import { Container, Table,Button } from 'react-bootstrap';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link,
+    useRouteMatch,
+    useParams
+  } from "react-router-dom";
 const Table2 = () => {
     return (
+        <>
         <Container className="table-2">
             <h1>"Environnement de RECETTE"</h1><br />
             <Table  bordered hover>
@@ -31,6 +39,15 @@ const Table2 = () => {
                 </tbody>
             </Table>
         </Container>
+        <Container className="btn-container">
+
+                            <Link to="/">
+            <Button className="btn" >
+                                Previous
+                                </Button>
+                                </Link>
+        </Container>
+                                </>
     );
 }
 

@@ -10,3 +10,15 @@
 .red{
     background-color: red !important;
 }
+.btn-container{
+    text-align: center;
+}
+.btn{
+
+    margin-top: 20px;
+    width: 100px;
+}
+.btn a{
+    color: white !important;
+    text-decoration: none;
+}
